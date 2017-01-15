@@ -1,0 +1,32 @@
+{
+    "//": "file header",
+    "name"  : "zndkConf.json",
+    "brief" : "test for DataContractJsonSerializer (.NET)",
+    "note"  : "test on .NET Framework 4.6.1",
+    "date"  : "2017-01-15",
+    "author": "zundoko",
+
+    "//": "zndk configuration",
+    "conf"  : {
+        "ID"   : "0x01234567",
+        "coeff": 0.001,
+        "nsvr" : 3,
+        "tcp" : [
+            {
+                "addr": "192.168.0.1",
+                "port": 50001
+            },
+            {
+                "addr": "192.168.0.2",
+                "port": 50002
+            },
+            {
+                "addr": "192.168.0.3",
+                "port": 50003
+            }
+        ]
+    },
+    
+    "//": "counter for updateing this file.",
+    "cnt"   : 0
+}
